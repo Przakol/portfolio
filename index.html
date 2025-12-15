@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <button class="menu-button">☰</button>
+
+    <div class="sidebar-trigger"></div>
+
+<div class="sidebar">
+  <nav>
+    <ul>
+      <li class="menu-item">
+        <a href="omnie.html">O mnie</a>
+      </li>
+      <li class="menu-item">
+        <a href="galeria.html">Galeria</a>
+        <ul class="submenu">
+          <li><span>2024</span></a></li>
+          <li><span>2025</span></li>
+        </ul>
+      </li>
+      <li class="menu-item">
+        <a href="kontakt.html">Kontakt</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+   
+
+    <section class="content">
+        <h1></h1>
+        <p></p>
+    </section>
+
+    <script>
+     const menuButton = document.querySelector('.menu-button');
+const sidebar = document.querySelector('.sidebar');
+const submenus = document.querySelectorAll('.submenu');
+
+menuButton.addEventListener('click', () => {
+
+    sidebar.classList.toggle('active');
+
+
+    submenus.forEach(sub => {
+        if (sub.style.maxHeight && sub.style.maxHeight !== "0px") {
+           
+            sub.style.maxHeight = "0";
+        } else {
+          
+            sub.style.maxHeight = sub.scrollHeight + "px";
+        }
+    });
+});
+
+    </script>
+
+</body>
+</html>
