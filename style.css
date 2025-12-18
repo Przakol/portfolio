@@ -123,14 +123,13 @@ body {
 }
 
 .submenu {
-  max-height: 0;            /* zwinięte */
-  overflow: hidden;         /* ukrywa elementy poza max-height */
-  transition: max-height 0.8s ease, padding 0.5s ease;  /* płynne rozwijanie */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease, padding 0.5s ease;
   padding-left: 15px;
   margin: 0;
   list-style-type: disc;
 }
-
 
 .submenu li span {
   font-size: 22px;    
@@ -141,14 +140,26 @@ body {
   line-height: 1.2;     
 }
 
+/* Dodaj ten styl dla linków w submenu */
+.submenu li span a {
+  font-size: 22px;
+  color: #ccc;
+  text-decoration: none;
+  display: inline;
+  padding: 0;
+  border-radius: 0;
+}
+
+.submenu li span a:hover {
+  color: white;
+  text-decoration: underline;
+}
 
 .menu-item:hover .submenu {
   max-height: 700px;   
   padding-top: 5px;   
   padding-bottom: 5px;
 }
-
-
 
 .sidebar nav ul li a {
     color: white;
