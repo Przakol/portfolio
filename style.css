@@ -81,11 +81,6 @@ body {
     cursor: pointer;
 }
 
-.sidebar h1, .sidebar p {
-    white-space: nowrap;     
-    overflow: hidden;        
-    text-overflow: ellipsis;
-}
 .sidebar {
     position: fixed;
     left: -250px;
