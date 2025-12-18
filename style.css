@@ -115,7 +115,7 @@ body {
 }
 
 .sidebar nav ul li {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .sidebar nav ul li a:hover {
@@ -179,7 +179,7 @@ span.galeria {
     text-decoration: none;
     font-size: 48px;
     display: block;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
 }
 
@@ -207,12 +207,12 @@ p {
 
 
 .sidebar {
-    /* ...twoje style... */
-    justify-content: flex-start; /* zamiast center */
+   
+    justify-content: flex-start; 
     overflow-y: auto;
 }
 
-/* Na większych ekranach wycentruj */
+
 @media (min-height: 800px) {
     .sidebar {
         justify-content: center;
@@ -220,10 +220,9 @@ p {
     }
 }
 
-/* Ukryj scrollbar ale zachowaj funkcjonalność */
+
 .sidebar::-webkit-scrollbar {
     width: 10px;
-    margin-left: 500px;
 }
 
 .sidebar::-webkit-scrollbar-thumb {
