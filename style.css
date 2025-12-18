@@ -115,7 +115,7 @@ body {
 }
 
 .sidebar nav ul li {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .sidebar nav ul li a:hover {
@@ -127,7 +127,7 @@ span.galeria {
     text-decoration: none !important;
     font-size: 48px !important;
     display: block !important;
-    padding: 6px !important;
+    padding: 8px !important;
     border-radius: 5px !important;
 
 
