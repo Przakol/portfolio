@@ -143,7 +143,7 @@ body {
 
 
 .menu-item:hover .submenu {
-  max-height: 500px;   
+  max-height: 700px;   
   padding-top: 5px;   
   padding-bottom: 5px;
 }
