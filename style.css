@@ -191,3 +191,14 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
+#galeria {
+    color: white;
+    text-decoration: none;
+    font-size: 48px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
