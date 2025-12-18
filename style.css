@@ -206,7 +206,11 @@ p {
 }
 
 
-
+.sidebar {
+   
+    justify-content: flex-start; 
+    overflow-y: auto;
+}
 
 
 @media (min-height: 800px) {
