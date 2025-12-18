@@ -74,7 +74,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 60px;
+    width: 50px;
     height: 100vh;
     background: transparent;
     z-index: 999;
@@ -85,7 +85,7 @@ body {
     position: fixed;
     left: -250px;
     top: 0;
-    width: 250px;
+    width: 270px;
     height: 100vh;
     background: transparent;
     transition: left 0.3s ease;
