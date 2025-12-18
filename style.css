@@ -140,18 +140,18 @@ body {
   line-height: 1.2;     
 }
 
-/* Dodaj ten styl dla linków w submenu */
+/* Linki w submenu */
 .submenu li span a {
-  font-size: 22px;
-  color: #ccc;
+  font-size: 22px !important;
+  color: #ccc !important;
   text-decoration: none;
-  display: inline;
-  padding: 0;
+  display: inline !important;
+  padding: 0 !important;
   border-radius: 0;
 }
 
 .submenu li span a:hover {
-  color: white;
+  color: white !important;
   text-decoration: underline;
 }
 
