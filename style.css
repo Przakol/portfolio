@@ -117,7 +117,7 @@ body {
   transform: scale(1.1); 
 }
 
-/* GŁÓWNE LINKI NAWIGACJI */
+
 .sidebar nav ul li a {
     color: white;
     text-decoration: none;
@@ -127,7 +127,7 @@ body {
     border-radius: 5px;
 }
 
-/* SUBMENU - MUSI BYĆ PO GŁÓWNYCH LINKACH! */
+
 .submenu {
   max-height: 0;
   overflow: hidden;
@@ -135,6 +135,14 @@ body {
   padding-left: 15px;
   margin: 0;
   list-style-type: disc;
+}
+
+.sidebar nav ul li > span {
+    color: white;
+    font-size: 48px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .submenu li span {
@@ -146,7 +154,7 @@ body {
   line-height: 1.2;     
 }
 
-/* Linki w submenu - teraz to nadpisze główne style bo jest później */
+
 .submenu li span a {
   font-size: 22px !important;
   color: #ccc !important;
@@ -168,10 +176,7 @@ body {
   padding-bottom: 5px;
 }
 
-li.rok {
-  color: white;
-  text-decoration: none;
-}
+
 
 .content {
     margin-left: 0;

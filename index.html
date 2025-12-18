@@ -28,7 +28,7 @@
           <li><span><a href="2024M.html">-2024</a></span></li>
           <li><span><a href="2025M.html">-2025</a></span></li>
           <li><span>rysunek</span></li> 
-          <li><span><a href="2024R.html">-2024</span></a></li>
+          <li><span><a href="2024R.html">-2024</a></span></li>
           <li><span><a href="2025R.html">-2025</a></span></li>
         </ul>
       </li>
@@ -39,41 +39,19 @@
   </nav>
 </div>
 
-
-   
-
     <section class="content">
         <h1></h1>
         <p></p>
     </section>
 
     <script>
-     const menuButton = document.querySelector('.menu-button');
+const menuButton = document.querySelector('.menu-button');
 const sidebar = document.querySelector('.sidebar');
-const submenus = document.querySelectorAll('.submenu');
 
 menuButton.addEventListener('click', () => {
-
     sidebar.classList.toggle('active');
-
-
-    submenus.forEach(sub => {
-        if (sub.style.maxHeight && sub.style.maxHeight !== "0px") {
-           
-            sub.style.maxHeight = "0";
-        } else {
-          
-            sub.style.maxHeight = sub.scrollHeight + "px";
-        }
-    });
 });
-
     </script>
 
 </body>
-
 </html>
-
-
-
-
