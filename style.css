@@ -223,7 +223,7 @@ p {
 /* Ukryj scrollbar ale zachowaj funkcjonalność */
 .sidebar::-webkit-scrollbar {
     width: 10px;
-    margin left: 500px;
+    margin-left: 500px;
 }
 
 .sidebar::-webkit-scrollbar-thumb {
