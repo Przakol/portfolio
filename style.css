@@ -5,9 +5,12 @@
   font-style: normal;
 }
 
+
 html, body {
   height: 100%;
   margin: 0;
+  
+
 }
 
 /* 1️⃣ Telefony */
@@ -98,11 +101,13 @@ body {
     display: inline-block;
 }
 
+
 .sidebar-trigger:hover ~ .sidebar,
 .sidebar:hover,
 .sidebar.active {
     left: 0;
 }
+
 
 .sidebar nav ul {
     list-style: none;
@@ -116,17 +121,6 @@ body {
 .sidebar nav ul li a:hover {
   transform: scale(1.1); 
 }
-
-
-.sidebar nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 48px;
-    display: block;
-    padding: 10px;
-    border-radius: 5px;
-}
-
 
 .submenu {
   max-height: 0;
@@ -146,20 +140,19 @@ body {
   line-height: 1.2;     
 }
 
-
+/* Linki w submenu */
 .submenu li span a {
   font-size: 22px !important;
   color: #ccc !important;
   text-decoration: none;
   display: inline !important;
   padding: 0 !important;
-  border-radius: 0 !important;
+  border-radius: 0;
 }
 
 .submenu li span a:hover {
   color: white !important;
   text-decoration: underline;
-  transform: none !important;
 }
 
 .menu-item:hover .submenu {
@@ -168,6 +161,19 @@ body {
   padding-bottom: 5px;
 }
 
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 48px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li.rok {
+  color: white;
+  text-decoration: none;
+}
 
 .content {
     margin-left: 0;
