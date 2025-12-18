@@ -206,27 +206,3 @@ p {
 }
 
 
-.sidebar {
-    /* ...twoje style... */
-    justify-content: flex-start; /* zamiast center */
-    overflow-y: auto;
-}
-
-/* Na większych ekranach wycentruj */
-@media (min-height: 800px) {
-    .sidebar {
-        justify-content: center;
-        overflow-y: visible;
-    }
-}
-
-/* Ukryj scrollbar ale zachowaj funkcjonalność */
-.sidebar::-webkit-scrollbar {
-    width: 10px;
-
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-}
