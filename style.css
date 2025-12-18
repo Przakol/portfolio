@@ -18,6 +18,7 @@ body {
   background: url("tlo/1080.webp") no-repeat top center;
   background-size: 100% auto; 
   min-height: 100vh;
+  font-family: 'Lexend_Exa' !important;
 }
 
 /* 2️⃣ Full HD */
@@ -25,7 +26,6 @@ body {
   body {
     background: url("tlo/1920.webp") no-repeat top center;
     background-size: 100% auto;
-    font-family: 'Lexend_Exa', sans-serif;
   }
 }
 
