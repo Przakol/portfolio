@@ -140,8 +140,7 @@ span.galeria {
   padding-left: 15px;
   margin: 0;
   list-style-type: disc;
-  overflow-y: auto;  
-  overflow-x: hidden;
+
 
 }
 
@@ -204,4 +203,29 @@ h1 {
 p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+
+.sidebar {
+    /* ...twoje style... */
+    justify-content: flex-start; /* zamiast center */
+    overflow-y: auto;
+}
+
+/* Na większych ekranach wycentruj */
+@media (min-height: 800px) {
+    .sidebar {
+        justify-content: center;
+        overflow-y: visible;
+    }
+}
+
+/* Ukryj scrollbar ale zachowaj funkcjonalność */
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
 }
