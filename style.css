@@ -159,6 +159,11 @@ body {
     border-radius: 5px;
 }
 
+a.rok {
+  color: white;
+  text-decoration: none;
+}
+
 .content {
     margin-left: 0;
     padding: 40px;
