@@ -85,7 +85,7 @@ body {
     position: fixed;
     left: -290px;
     top: 0;
-    width: 250px;
+    width: 290px;
     height: 100vh;
     background: transparent;
     transition: left 0.3s ease;
