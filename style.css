@@ -117,7 +117,6 @@ body {
   transform: scale(1.1); 
 }
 
-
 .sidebar nav ul li a {
     color: white;
     text-decoration: none;
@@ -137,14 +136,6 @@ body {
   list-style-type: disc;
 }
 
-.sidebar nav ul li > span {
-    color: white;
-    font-size: 48px;
-    display: block;
-    padding: 10px;
-    cursor: pointer;
-}
-
 .submenu li span {
   font-size: 22px;    
   display: block;
@@ -153,7 +144,6 @@ body {
   margin: 0;            
   line-height: 1.2;     
 }
-
 
 .submenu li span a {
   font-size: 22px !important;
@@ -170,13 +160,12 @@ body {
   transform: none !important;
 }
 
+
 .menu-item:hover .submenu {
   max-height: 700px;   
   padding-top: 5px;   
   padding-bottom: 5px;
 }
-
-
 
 .content {
     margin-left: 0;
