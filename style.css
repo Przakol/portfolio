@@ -83,7 +83,7 @@ body {
 
 .sidebar {
     position: fixed;
-    left: -270px;
+    left: -290px;
     top: 0;
     width: 250px;
     height: 100vh;
@@ -94,6 +94,7 @@ body {
     display: flex;            
     flex-direction: column;  
     justify-content: center;  
+    box-sizing: border-box;
 }
 
 .sidebar-trigger:hover ~ .sidebar,
