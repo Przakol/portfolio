@@ -143,7 +143,7 @@ body {
   color: #ccc;
   padding: 2px 0;       
   margin: 0;            
-  line-height: 1.2;     
+  line-height: 1.0;     
 }
 
 /* Linki w submenu - teraz to nadpisze główne style bo jest później */
@@ -186,10 +186,6 @@ h1 {
 }
 
 p {
-  font-size: 22px;    
-  display: block;
-  color: #ccc;
-  padding: 2px 0;       
-  margin: 0;            
-  line-height: 1.2;
+    font-size: 18px;
+    line-height: 1.6;
 }
