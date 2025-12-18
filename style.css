@@ -85,7 +85,7 @@ body {
     position: fixed;
     left: -290px;
     top: 0;
-    width: 350px;
+    width: 250px;
     height: 100vh;
     background: transparent;
     transition: left 0.3s ease;
@@ -94,11 +94,11 @@ body {
     display: flex;            
     flex-direction: column;  
     justify-content: center;  
-    box-sizing: border-box;
 }
 
 .sidebar a {
     white-space: nowrap;
+    display: inline-block;
 }
 
 
