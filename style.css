@@ -127,16 +127,12 @@ body {
     border-radius: 5px;
 }
 
-/* Styl dla "galeria" bez linka - na tym samym poziomie co reszta */
-.menu-item > a[href=""] {
+
+.menu-item {
     color: white;
-    text-decoration: none;
     font-size: 48px;
-    display: block;
     padding: 10px;
-    border-radius: 5px;
     cursor: default;
-    pointer-events: none;
 }
 
 .submenu {
@@ -148,7 +144,7 @@ body {
   list-style-type: disc;
 }
 
-/* Zmniejszona odległość między elementami submenu */
+
 .submenu li {
   margin-bottom: 3px;
 }
