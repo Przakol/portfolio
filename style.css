@@ -17,7 +17,6 @@ html, body {
 body {
   background: url("tlo/1080.webp") no-repeat top center;
   background-size: 100% auto; 
-  font-family: Arial, sans-serif;
   min-height: 100vh;
 }
 
