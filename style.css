@@ -127,8 +127,7 @@ body {
     border-radius: 5px;
 }
 
-
-
+/* Styl dla "galeria" - bezpośredni dziecko menu-item */
 .menu-item > span {
     color: white;
     font-size: 48px;
@@ -136,6 +135,7 @@ body {
     display: block;
     cursor: default;
 }
+
 .submenu {
   max-height: 0;
   overflow: hidden;
@@ -145,12 +145,12 @@ body {
   list-style-type: disc;
 }
 
-
 .submenu li {
   margin-bottom: 3px;
 }
 
-.submenu li span {
+/* Tylko spany WEWNĄTRZ submenu li */
+.submenu li > span {
   font-size: 22px;    
   display: block;
   color: #ccc;
