@@ -107,6 +107,7 @@ body {
 .sidebar nav ul {
     list-style: none;
     margin-top: 10px;
+    padding: 0;
 }
 
 .sidebar nav ul li {
@@ -117,7 +118,6 @@ body {
   transform: scale(1.1); 
 }
 
-
 .sidebar nav ul li a {
     color: white;
     text-decoration: none;
@@ -127,6 +127,17 @@ body {
     border-radius: 5px;
 }
 
+/* Styl dla "galeria" bez linka - na tym samym poziomie co reszta */
+.menu-item > a[href=""] {
+    color: white;
+    text-decoration: none;
+    font-size: 48px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: default;
+    pointer-events: none;
+}
 
 .submenu {
   max-height: 0;
@@ -137,12 +148,9 @@ body {
   list-style-type: disc;
 }
 
+/* Zmniejszona odległość między elementami submenu */
 .submenu li {
-  margin-bottom: 2px; 
-}
-
-.submenu li:has(span:not(a)) {
-  margin-top: 10px; 
+  margin-bottom: 3px;
 }
 
 .submenu li span {
@@ -153,7 +161,6 @@ body {
   margin: 0;            
   line-height: 1.2;     
 }
-
 
 .submenu li span a {
   font-size: 22px !important;
