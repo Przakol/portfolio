@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Lexend_Exa';
+  src: url('fonts/Lexend_Exa/LexendExa-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 html, body {
   height: 100%;
   margin: 0;
