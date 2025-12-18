@@ -183,3 +183,19 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
+/* Styl dla elementu galeria który nie jest linkiem */
+.sidebar nav ul li > span {
+    color: white;
+    font-size: 48px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Rozwinięcie submenu po najechaniu na element z klasą has-submenu */
+.has-submenu:hover .submenu {
+  max-height: 700px !important;   
+  padding-top: 5px;   
+  padding-bottom: 5px;
+}
