@@ -117,6 +117,7 @@ body {
   transform: scale(1.1); 
 }
 
+
 .sidebar nav ul li a {
     color: white;
     text-decoration: none;
@@ -145,6 +146,7 @@ body {
   line-height: 1.2;     
 }
 
+
 .submenu li span a {
   font-size: 22px !important;
   color: #ccc !important;
@@ -160,12 +162,12 @@ body {
   transform: none !important;
 }
 
-
 .menu-item:hover .submenu {
   max-height: 700px;   
   padding-top: 5px;   
   padding-bottom: 5px;
 }
+
 
 .content {
     margin-left: 0;
@@ -182,20 +184,4 @@ h1 {
 p {
     font-size: 18px;
     line-height: 1.6;
-}
-
-/* Styl dla elementu galeria który nie jest linkiem */
-.sidebar nav ul li > span {
-    color: white;
-    font-size: 48px;
-    display: block;
-    padding: 10px;
-    cursor: pointer;
-}
-
-/* Rozwinięcie submenu po najechaniu na element z klasą has-submenu */
-.has-submenu:hover .submenu {
-  max-height: 700px !important;   
-  padding-top: 5px;   
-  padding-bottom: 5px;
 }

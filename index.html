@@ -21,8 +21,8 @@
       <li class="menu-item">
         <a href="omnie.html">o mnie</a>
       </li>
-      <li class="menu-item has-submenu">
-        <span class="menu-label">galeria</span>
+      <li class="menu-item">
+        <span>galeria</span>
         <ul class="submenu">
           <li><span>malarstwo</span></li>
           <li><span><a href="2024M.html">-2024</a></span></li>
@@ -39,19 +39,37 @@
   </nav>
 </div>
 
+
+   
+
     <section class="content">
         <h1></h1>
         <p></p>
     </section>
 
     <script>
-const menuButton = document.querySelector('.menu-button');
+     const menuButton = document.querySelector('.menu-button');
 const sidebar = document.querySelector('.sidebar');
+const submenus = document.querySelectorAll('.submenu');
 
 menuButton.addEventListener('click', () => {
+
     sidebar.classList.toggle('active');
+
+
+    submenus.forEach(sub => {
+        if (sub.style.maxHeight && sub.style.maxHeight !== "0px") {
+           
+            sub.style.maxHeight = "0";
+        } else {
+          
+            sub.style.maxHeight = sub.scrollHeight + "px";
+        }
+    });
 });
+
     </script>
 
 </body>
+
 </html>
