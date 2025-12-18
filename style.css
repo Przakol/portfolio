@@ -5,12 +5,9 @@
   font-style: normal;
 }
 
-
 html, body {
   height: 100%;
   margin: 0;
-  
-
 }
 
 /* 1️⃣ Telefony */
@@ -101,13 +98,11 @@ body {
     display: inline-block;
 }
 
-
 .sidebar-trigger:hover ~ .sidebar,
 .sidebar:hover,
 .sidebar.active {
     left: 0;
 }
-
 
 .sidebar nav ul {
     list-style: none;
@@ -122,6 +117,17 @@ body {
   transform: scale(1.1); 
 }
 
+/* GŁÓWNE LINKI NAWIGACJI */
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 48px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* SUBMENU - MUSI BYĆ PO GŁÓWNYCH LINKACH! */
 .submenu {
   max-height: 0;
   overflow: hidden;
@@ -140,34 +146,26 @@ body {
   line-height: 1.2;     
 }
 
-/* Linki w submenu */
+/* Linki w submenu - teraz to nadpisze główne style bo jest później */
 .submenu li span a {
   font-size: 22px !important;
   color: #ccc !important;
   text-decoration: none;
   display: inline !important;
   padding: 0 !important;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .submenu li span a:hover {
   color: white !important;
   text-decoration: underline;
+  transform: none !important;
 }
 
 .menu-item:hover .submenu {
   max-height: 700px;   
   padding-top: 5px;   
   padding-bottom: 5px;
-}
-
-.sidebar nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 48px;
-    display: block;
-    padding: 10px;
-    border-radius: 5px;
 }
 
 li.rok {
