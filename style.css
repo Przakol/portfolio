@@ -128,13 +128,14 @@ body {
 }
 
 
-.menu-item {
+
+.menu-item > span {
     color: white;
     font-size: 48px;
     padding: 10px;
+    display: block;
     cursor: default;
 }
-
 .submenu {
   max-height: 0;
   overflow: hidden;
