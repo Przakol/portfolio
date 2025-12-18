@@ -127,15 +127,6 @@ body {
     border-radius: 5px;
 }
 
-/* Styl dla "galeria" - bezpośredni dziecko menu-item */
-.menu-item > span {
-    color: white;
-    font-size: 48px;
-    padding: 10px;
-    display: block;
-    cursor: default;
-}
-
 .submenu {
   max-height: 0;
   overflow: hidden;
@@ -178,6 +169,15 @@ body {
   max-height: 700px;   
   padding-top: 5px;   
   padding-bottom: 5px;
+}
+
+/* Styl dla "galeria" - MUSI BYĆ PO STYLACH SUBMENU! */
+.sidebar nav > ul > li.menu-item > span {
+    color: white !important;
+    font-size: 48px !important;
+    padding: 10px !important;
+    display: block !important;
+    cursor: default;
 }
 
 li.rok {
