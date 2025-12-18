@@ -81,7 +81,20 @@ body {
     cursor: pointer;
 }
 
-
+.sidebar {
+    position: fixed;
+    left: -290px;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background: transparent;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    padding: 60px 20px 20px 20px;
+    display: flex;            
+    flex-direction: column;  
+    justify-content: center;  
+}
 
 .sidebar a {
     white-space: nowrap;
@@ -193,11 +206,7 @@ p {
 }
 
 
-.sidebar {
-   
-    justify-content: flex-start; 
-    overflow-y: auto;
-}
+
 
 
 @media (min-height: 800px) {
