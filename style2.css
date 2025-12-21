@@ -9,6 +9,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  color: white;
   
 
 }
@@ -48,6 +49,5 @@ body {
 
 p {
   color: white;
-  font-family: 'Lexend_Exa';
 }
 
