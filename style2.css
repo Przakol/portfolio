@@ -24,8 +24,12 @@ p{
   background: rgba(0, 0, 0, 0.2);
 
 }
-ul, li {
-   background: rgba(0, 0, 0, 0.2);
+ul {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+li {
+  background: none;
 }
 
 /* 1️⃣ Telefony */
@@ -35,6 +39,7 @@ ul, li {
     background-size: cover;
     min-height: 100vh;
     font-size: 16px;
+    font-family: 'Lexend_Exa' !important;
     color: white;
   }
   
