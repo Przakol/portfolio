@@ -26,6 +26,7 @@ body {
   body {
     background: url("tlo/1920.webp") no-repeat top center;
     background-size: cover;
+    font-family: 'Lexend_Exa' !important;
   }
 }
 
@@ -34,6 +35,7 @@ body {
   body {
     background: url("tlo/2560.webp") no-repeat top center;
     background-size: cover;
+    font-family: 'Lexend_Exa' !important;
   }
 }
 
@@ -42,6 +44,7 @@ body {
   body {
     background: url("tlo/3840.webp") no-repeat top center;
     background-size: cover;
+    font-family: 'Lexend_Exa' !important;
   }
 }
 

@@ -29,6 +29,7 @@ body {
   body {
     background: url("tlo2/1920dlg.webp") no-repeat top center;
     background-size: 100% auto;
+    font-family: 'Lexend_Exa' !important;
     color: white;
     font-size: 14px;
 
@@ -40,6 +41,7 @@ body {
   body {
     background: url("tlo2/2560dlg.webp") no-repeat top center;
     background-size: 100% auto;
+    font-family: 'Lexend_Exa' !important;
     color: white;
     font-size: 14px;
 
@@ -51,17 +53,19 @@ body {
   body {
     background: url("tlo2/3840dlg.webp") no-repeat top center;
     background-size: 100% auto;
+    font-family: 'Lexend_Exa' !important;
     color: white;
-    font-size: 14px;
+    font-size: 22px;
+    
 
   }
 }
 
-p {
-    font-size: 14px;
-    padding: 10px;
-    width: 60%;
+
+
+p{
+  font-size: 22px;
+  padding: 10px;
+  width: 60%;
+  
 }
-
-
-
