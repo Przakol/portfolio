@@ -11,32 +11,23 @@ html, body {
   margin: 0;
 
 }
-h3 {
-   background: rgba(0, 0, 0, 0.2);
-
-}
 
 
 p{
   font-size: 20px;
   padding: 10px;
   width: 60%;
-  background: rgba(0, 0, 0, 0.2);
+
 
 }
-ul {
-  background: rgba(0, 0, 0, 0.2);
-}
 
-li {
-  background: none;
-}
 
 /* 1️⃣ Telefony */
 @media (max-width: 768px) {
   body {
     background: url("tlo2/1080dlg.webp") no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
     font-size: 16px;
     font-family: 'Lexend_Exa' !important;
@@ -55,7 +46,6 @@ li {
     width: 90%;
     padding: 10px;
     text-align: left;
-    background: rgba(0, 0, 0, 0.2);
     color: white;
   }
   
@@ -63,13 +53,11 @@ li {
     font-size: 14px;
     width: 90%;
     padding: 10px 10px 10px 25px;
-    background: rgba(0, 0, 0, 0.2);
     color: white;
   }
   
   li {
     margin-bottom: 12px;
-    background: rgba(0, 0, 0, 0.2);
     color: white;
   }
 }
