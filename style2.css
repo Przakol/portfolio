@@ -45,8 +45,9 @@ body {
   }
 }
 
-h3 {
-  z-index: 1001;
-}
 
+p {
+  color: white;
+  font-family: 'Lexend_Exa';
+}
 
