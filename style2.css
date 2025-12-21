@@ -117,14 +117,15 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .arrow {
   font-family: "Arial Black", Arial, sans-serif;
   font-size: 40px;
   line-height: 1;
-  margin-top: 20px;
-  margin-left: 20px;
+
 }
 
 
