@@ -9,36 +9,72 @@
 html, body {
   height: 100%;
   margin: 0;
-
-  
-
+  font-family: 'Lexend_Exa', sans-serif;
+  color: white;
 }
 
-p{
-  font-size: 20px;
-  padding: 10px;
+
+h3 {
+  font-size: 24px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+p {
+  font-size: 18px;
+  padding: 15px;
   width: 60%;
-  
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+ul {
+  font-size: 18px;
+  padding: 15px 15px 15px 35px;
+  width: 60%;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 /* 1️⃣ Telefony */
 @media (max-width: 768px) {
-  p {
-    font-size: 12px;       
-    width: 90%;                   
-    padding: 10px;
+  body {
+    background: url("tlo2/1080dlg.webp") no-repeat top center;
+    background-size: cover;
+    min-height: 100vh;
+    font-size: 16px;
   }
-body {
-  background: url("tlo2/1080dlg.webp") no-repeat top center;
-  background-size: 100% auto; 
-  min-height: 100vh;
-  font-family: 'Lexend_Exa' !important;
-  color: white;
-  font-size: 12px;
-
   
+  h3 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    width: 90%;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  ul {
+    font-size: 14px;
+    width: 90%;
+    padding: 10px 10px 10px 25px;
+  }
+  
+  li {
+    margin-bottom: 12px;
+  }
 }
-}
+
 
 /* 2️⃣ Full HD */
 @media (min-width: 769px) and (max-width: 1920px) {
