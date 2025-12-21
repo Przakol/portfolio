@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Lexend_Exa';
+  src: url('/fonts/Lexend_Exa/LexendExa-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+ul {
+    font-size: 30px;
+}
+
+
+/* 1️⃣ Telefony */
+@media (max-width: 768px) {
+  body {
+    background: url("tlo2/1080dlg.webp") no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Lexend_Exa' !important;
+    color: white;
+  }
+}
+  
+
+  ul {
+    font-size: 30px;
+    width: 90%;
+    padding: 10px 10px 10px 25px;
+    color: white;
+  }
+
+
+/* 2️⃣ Full HD */
+@media (min-width: 769px) and (max-width: 1920px) {
+  body {
+    background: url("tlo2/1920dlg.webp") no-repeat top center;
+    background-size: 100% auto;
+    font-family: 'Lexend_Exa' !important;
+    color: white;
+    font-size: 20px;
+
+  }
+}
+
+/* 3️⃣ 2K */
+@media (min-width: 1921px) and (max-width: 2560px) {
+  body {
+    background: url("tlo2/2560dlg.webp") no-repeat top center;
+    background-size: 100% auto;
+    font-family: 'Lexend_Exa' !important;
+    color: white;
+    font-size: 20px;
+
+  }
+}
+
+/* 4️⃣ 4K i większe */
+@media (min-width: 2561px) {
+  body {
+    background: url("tlo2/3840dlg.webp") no-repeat top center;
+    background-size: 100% auto;
+    font-family: 'Lexend_Exa' !important;
+    color: white;
+    font-size: 20px;
+    
+
+  }
+}
+
+
+
