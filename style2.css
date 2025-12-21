@@ -14,6 +14,13 @@ html, body {
 
 }
 
+p{
+  font-size: 20px;
+  padding: 10px;
+  width: 60%;
+  
+}
+
 /* 1️⃣ Telefony */
 @media (max-width: 768px) {
   p {
@@ -28,7 +35,7 @@ body {
   font-family: 'Lexend_Exa' !important;
   color: white;
   font-size: 12px;
-  text-overflow: auto;
+
   
 }
 }
@@ -72,9 +79,3 @@ body {
 
 
 
-p{
-  font-size: 20px;
-  padding: 10px;
-  width: 60%;
-  
-}
