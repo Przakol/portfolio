@@ -15,6 +15,12 @@ html, body {
 }
 
 /* 1️⃣ Telefony */
+@media (max-width: 768px) {
+  p {
+    font-size: 12px;       
+    width: 90%;                   
+    padding: 10px;
+  }
 body {
   background: url("tlo2/1080dlg.webp") no-repeat top center;
   background-size: 100% auto; 
@@ -23,6 +29,8 @@ body {
   color: white;
   font-size: 12px;
   text-overflow: auto;
+  
+}
 }
 
 /* 2️⃣ Full HD */
