@@ -21,7 +21,8 @@ body {
   min-height: 100vh;
   font-family: 'Lexend_Exa' !important;
   color: white;
-  font-size: 20px;
+  font-size: 12px;
+  text-overflow: auto;
 }
 
 /* 2️⃣ Full HD */
