@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   font-family: 'Lexend_Exa' !important;
   color: white;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* 2️⃣ Full HD */
@@ -31,7 +31,7 @@ body {
     background-size: 100% auto;
     font-family: 'Lexend_Exa' !important;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
 
   }
 }
@@ -43,7 +43,7 @@ body {
     background-size: 100% auto;
     font-family: 'Lexend_Exa' !important;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
 
   }
 }
@@ -55,7 +55,7 @@ body {
     background-size: 100% auto;
     font-family: 'Lexend_Exa' !important;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     
 
   }
@@ -64,7 +64,7 @@ body {
 
 
 p{
-  font-size: 22px;
+  font-size: 20px;
   padding: 10px;
   width: 60%;
   
