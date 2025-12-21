@@ -12,7 +12,7 @@ html, body {
 
 }
 h3 {
-   background: rgba(0, 0, 0, 0.5);
+   background: rgba(0, 0, 0, 0.2);
 
 }
 
@@ -21,11 +21,11 @@ p{
   font-size: 20px;
   padding: 10px;
   width: 60%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
 
 }
 ul, li {
-   background: rgba(0, 0, 0, 0.6);
+   background: rgba(0, 0, 0, 0.2);
 }
 
 /* 1️⃣ Telefony */
@@ -35,12 +35,14 @@ ul, li {
     background-size: cover;
     min-height: 100vh;
     font-size: 16px;
+    color: white;
   }
   
   h3 {
     font-size: 20px;
     padding: 10px;
     text-align: center;
+    color: white;
   }
   
   p {
@@ -48,19 +50,22 @@ ul, li {
     width: 90%;
     padding: 10px;
     text-align: left;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
   }
   
   ul {
     font-size: 14px;
     width: 90%;
     padding: 10px 10px 10px 25px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
   }
   
   li {
     margin-bottom: 12px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
   }
 }
 
