@@ -6,25 +6,6 @@
 }
 
 
-.back-button {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  border: 1px solid white;
-  background: transparent;
-  color: white;
-  cursor: pointer;
-
-  display: flex;
-  align-items: left;
-  justify-content: left;
-}
-
-.arrow {
-  width: 28px;
-  height: 28px;
-}
-
 
 ul {
     font-size: 30px;
@@ -92,3 +73,22 @@ ul {
 
 
 
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1;
+}
