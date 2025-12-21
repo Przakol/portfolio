@@ -16,7 +16,7 @@ html, body {
 /* 1️⃣ Telefony */
 body {
   background: url("tlo/1080.webp") no-repeat top center;
-  background-size: 100% auto; 
+  background-size: cover; 
   min-height: 100vh;
   font-family: 'Lexend_Exa' !important;
 }
@@ -25,7 +25,7 @@ body {
 @media (min-width: 769px) and (max-width: 1920px) {
   body {
     background: url("tlo/1920.webp") no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
   }
 }
 
@@ -33,7 +33,7 @@ body {
 @media (min-width: 1921px) and (max-width: 2560px) {
   body {
     background: url("tlo/2560.webp") no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
   }
 }
 
@@ -41,7 +41,7 @@ body {
 @media (min-width: 2561px) {
   body {
     background: url("tlo/3840.webp") no-repeat top center;
-    background-size: 100% auto;
+    background-size: cover;
   }
 }
 
