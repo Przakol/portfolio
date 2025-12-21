@@ -9,37 +9,16 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Lexend_Exa', sans-serif;
-  color: white;
+
 }
 
 
-h3 {
-  font-size: 24px;
-  padding: 15px;
-  margin: 20px auto;
-  max-width: 90%;
-}
-
-p {
-  font-size: 18px;
-  padding: 15px;
+p{
+  font-size: 20px;
+  padding: 10px;
   width: 60%;
-  margin: 0 auto;
-  line-height: 1.6;
-  text-align: justify;
-}
+  background: rgba(0, 0, 0, 0.6);
 
-ul {
-  font-size: 18px;
-  padding: 15px 15px 15px 35px;
-  width: 60%;
-  margin: 20px auto;
-  line-height: 1.8;
-}
-
-li {
-  margin-bottom: 10px;
 }
 
 /* 1️⃣ Telefony */
@@ -62,19 +41,21 @@ li {
     width: 90%;
     padding: 10px;
     text-align: left;
+    background: rgba(0, 0, 0, 0.6);
   }
   
   ul {
     font-size: 14px;
     width: 90%;
     padding: 10px 10px 10px 25px;
+    background: rgba(0, 0, 0, 0.6);
   }
   
   li {
     margin-bottom: 12px;
+    background: rgba(0, 0, 0, 0.6);
   }
 }
-
 
 /* 2️⃣ Full HD */
 @media (min-width: 769px) and (max-width: 1920px) {
