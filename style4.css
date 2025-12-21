@@ -141,3 +141,25 @@ body {
 .close-btn:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.arrow {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1;
+}
