@@ -86,9 +86,9 @@ body {
 
 .sidebar {
     position: fixed;
-    left: -350px;
+    left: -450px;
     top: 0;
-    width: 310px;
+    width: 410px;
     height: 100vh;
     background: transparent;
     transition: left 0.3s ease;
