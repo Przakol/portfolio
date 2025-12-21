@@ -36,7 +36,7 @@ li {
 @media (max-width: 768px) {
   body {
     background: url("tlo2/1080dlg.webp") no-repeat top center;
-    background-size: cover;
+    background-size: 100% auto;
     min-height: 100vh;
     font-size: 16px;
     font-family: 'Lexend_Exa' !important;
