@@ -18,9 +18,11 @@
     <img src="zdj/rysunek/2024/received_394627356378330.webp" alt="Zdjęcie 1">
   </div>
 
-  <div class="modal" id="modal" onclick="closeModal()">
-    <span class="close-btn">&times;</span>
-    <img class="modal-content" id="modalImg">
+ <div class="modal" id="modal" onclick="closeModal()">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <button class="nav-btn prev" onclick="event.stopPropagation(); changeImage(-1)">‹</button>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation()">
+    <button class="nav-btn next" onclick="event.stopPropagation(); changeImage(1)">›</button>
   </div>
 
   <script src="gallery.js"></script>

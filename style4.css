@@ -161,8 +161,58 @@ body {
   align-items: center;
   justify-content: center;
   transition: background 0.3s ease;
+  user-select: none;
 }
 
 .close-btn:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+/* Przyciski nawigacji */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  z-index: 1001;
+  user-select: none;
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-btn.prev {
+  left: 30px;
+}
+
+.nav-btn.next {
+  right: 30px;
+}
+
+@media (max-width: 768px) {
+  .nav-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+  
+  .nav-btn.prev {
+    left: 10px;
+  }
+  
+  .nav-btn.next {
+    right: 10px;
+  }
 }
