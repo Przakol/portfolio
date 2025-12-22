@@ -35,11 +35,13 @@
   </div>
 </div>
 
-<div class="modal" id="modal" onclick="closeModal()">
+  <div class="modal" id="modal" onclick="closeModal()">
     <span class="close-btn" onclick="closeModal()">&times;</span>
-    <button class="nav-btn prev" onclick="event.stopPropagation(); changeImage(-1)">‹</button>
     <img class="modal-content" id="modalImg" onclick="event.stopPropagation()">
-    <button class="nav-btn next" onclick="event.stopPropagation(); changeImage(1)">›</button>
+    <div class="modal-nav">
+      <button class="nav-btn prev" onclick="event.stopPropagation(); changeImage(-1)">‹</button>
+      <button class="nav-btn next" onclick="event.stopPropagation(); changeImage(1)">›</button>
+    </div>
   </div>
 
   <script src="gallery.js"></script>
