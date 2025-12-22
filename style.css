@@ -20,6 +20,7 @@ html, body {
   body {
     background: url("tlo/1920.webp") no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Lexend_Exa' !important;
   }
 }
@@ -28,7 +29,8 @@ html, body {
 @media (min-width: 1921px) and (max-width: 2560px) {
   body {
     background: url("tlo/2560.webp") no-repeat top center;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Lexend_Exa' !important;
   }
 }
@@ -38,6 +40,7 @@ html, body {
   body {
     background: url("tlo/3840.webp") no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Lexend_Exa' !important;
   }
 }
