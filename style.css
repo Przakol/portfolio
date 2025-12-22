@@ -13,14 +13,7 @@ html, body {
 
 }
 
-/* 1️⃣ Telefony */
-body {
-  background: url("tlo/1080.webp") no-repeat top center;
-  background-size: cover; 
-  min-height: 100vh;
-  font-family: 'Lexend_Exa' !important;
-  font-size: 14px;
-}
+
 
 /* 2️⃣ Full HD */
 @media (min-width: 769px) and (max-width: 1920px) {
@@ -213,3 +206,10 @@ p {
 }
 
 
+body {
+  background: url("tlo/1080.webp") no-repeat top center;
+  background-size: cover; 
+  min-height: 100vh;
+  font-family: 'Lexend_Exa' !important;
+  font-size: 14px;
+}
