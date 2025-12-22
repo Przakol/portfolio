@@ -207,6 +207,12 @@ p {
 
 
 @media (max-width: 768px) {
+  body{
+  background: url("tlo/1080.webp") no-repeat top center;
+    background-size: cover;
+    font-family: 'Lexend_Exa' !important;
+    }
+    }
   .sidebar nav ul li a {
     font-size: 28px;
   }
@@ -216,10 +222,10 @@ p {
   }
   
   .submenu li span {
-    font-size: 13px;
+    font-size: 15px;
   }
   
   .submenu li span a {
-    font-size: 13px !important;
+    font-size: 15px !important;
   }
-}
+
