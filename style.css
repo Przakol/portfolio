@@ -20,7 +20,6 @@ html, body {
   body {
     background: url("tlo/1920.webp") no-repeat top center;
     background-size: cover;
-    background-attachment: fixed;
     font-family: 'Lexend_Exa' !important;
   }
 }
@@ -30,7 +29,6 @@ html, body {
   body {
     background: url("tlo/2560.webp") no-repeat top center;
     background-size: cover;
-    background-attachment: fixed;
     font-family: 'Lexend_Exa' !important;
   }
 }
@@ -40,7 +38,6 @@ html, body {
   body {
     background: url("tlo/3840.webp") no-repeat top center;
     background-size: cover;
-    background-attachment: fixed;
     font-family: 'Lexend_Exa' !important;
   }
 }
@@ -208,14 +205,6 @@ p {
     line-height: 1.6;
 }
 
-
-body {
-  background: url("tlo/1080.webp") no-repeat top center;
-  background-size: cover; 
-  min-height: 100vh;
-  font-family: 'Lexend_Exa' !important;
-  font-size: 14px;
-}
 
 @media (max-width: 768px) {
   .sidebar nav ul li a {
