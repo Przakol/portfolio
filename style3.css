@@ -7,9 +7,12 @@
 
 
 
-ul {
-    font-size: 30px;
-}
+ ul {
+    font-size: 45px;
+    width: 90%;
+    padding: 10px 10px 10px 25px;
+    color: white;
+  }
 
 
 /* 1️⃣ Telefony */
@@ -34,12 +37,7 @@ ul {
 }
   
 
-  ul {
-    font-size: 45px;
-    width: 90%;
-    padding: 10px 10px 10px 25px;
-    color: white;
-  }
+
 
 
 /* 2️⃣ Full HD */
