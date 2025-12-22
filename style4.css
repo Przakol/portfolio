@@ -208,7 +208,7 @@ body {
   
   .modal-content {
     max-height: 70%;
-    margin-bottom: 20px;
+    margin-bottom: auto;
   }
   
   .nav-btn {
@@ -230,5 +230,10 @@ body {
     gap: 40px;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1002;
   }
 }
