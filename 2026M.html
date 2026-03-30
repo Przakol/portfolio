@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria Zdjęć</title>
+  <link rel="stylesheet" href="style4.css">
+  <link rel="icon" href="/zdj/icon.png" type="image/png">
+</head>
+<body>
+    <button class="back-button" onclick="history.back()" aria-label="Powrót">
+  <span class="arrow">←</span>
+</button>
+    <div class="gallery">
+   <div class="gallery-item" onclick="openModal('zdj/malarstwo/2026/26.webp')">
+    <img src="zdj/malarstwo/2026/26.webp" alt="Zdjęcie 1">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/malarstwo/2026/54.webp')">
+    <img src="zdj/malarstwo/2026/54.webp" alt="Zdjęcie 2">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/malarstwo/2026/55.webp')">
+    <img src="zdj/malarstwo/2026/55.webp" alt="Zdjęcie 3">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/malarstwo/2026/21.webp')">
+    <img src="zdj/malarstwo/2026/21.webp" alt="Zdjęcie 4">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/malarstwo/2026/53.webp')">
+    <img src="zdj/malarstwo/2026/53.webp" alt="Zdjęcie 5">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/malarstwo/2026/57.webp')">
+    <img src="zdj/malarstwo/2026/57.webp" alt="Zdjęcie 6">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/malarstwo/2026/56.webp')">
+    <img src="zdj/malarstwo/2026/56.webp" alt="Zdjęcie 7">
+  </div>
+</div>
+
+  <div class="modal" id="modal" onclick="closeModal()">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation()">
+    <div class="modal-nav">
+      <button class="nav-btn prev" onclick="event.stopPropagation(); changeImage(-1)">‹</button>
+      <button class="nav-btn next" onclick="event.stopPropagation(); changeImage(1)">›</button>
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
