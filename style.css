@@ -101,6 +101,13 @@ html, body {
     display: inline-block;
 }
 
+.sidebar.no-hover {
+    pointer-events: none;
+}
+
+.sidebar-trigger:hover ~ .sidebar.no-hover {
+    left: -500px;
+}
 
 .sidebar-trigger:hover ~ .sidebar,
 .sidebar:hover,
