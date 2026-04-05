@@ -7,6 +7,10 @@ function initGallery() {
 }
 
 function openModal(src) {
+  console.log('src z HTML:', src);
+  console.log('images:', images);
+  console.log('findIndex:', images.findIndex(imgSrc => imgSrc.endsWith(src)));
+  
   const modal = document.getElementById('modal');
   const modalImg = document.getElementById('modalImg');
   
@@ -45,3 +49,5 @@ document.addEventListener('keydown', (e) => {
     changeImage(1);
   }
 });
+
+document.addEventListener('DOMContentLoaded', initGallery);
