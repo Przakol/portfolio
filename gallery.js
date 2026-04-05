@@ -4,16 +4,19 @@ let images = [];
 // Zbierz wszystkie zdjęcia z galerii
 function initGallery() {
   const galleryItems = document.querySelectorAll('.gallery-item img');
-  images = Array.from(galleryItems).map(img => img.src);
+  images = Array.from(galleryItems).map(item => {
+    const img = item.querySelector('img');
+    return img.src;
+  });
 }
 
 function openModal(src) {
   const modal = document.getElementById('modal');
   const modalImg = document.getElementById('modalImg');
   
-  currentIndex = images.indexOf(src);
+  currentIndex = images.findIndex(imgSrc => imgSrc.endsWith(src));
   modal.classList.add('active');
-  modalImg.src = src;
+  modalImg.src = images[currentIndex];
 }
 
 function closeModal() {
