@@ -1,13 +1,9 @@
 let currentIndex = 0;
 let images = [];
 
-// Zbierz wszystkie zdjęcia z galerii
 function initGallery() {
   const galleryItems = document.querySelectorAll('.gallery-item img');
-  images = Array.from(galleryItems).map(item => {
-    const img = item.querySelector('img');
-    return img.src;
-  });
+  images = Array.from(galleryItems).map(img => img.src);
 }
 
 function openModal(src) {
@@ -27,7 +23,6 @@ function closeModal() {
 function changeImage(direction) {
   currentIndex += direction;
   
-  // Zapętlenie galerii
   if (currentIndex < 0) {
     currentIndex = images.length - 1;
   } else if (currentIndex >= images.length) {
@@ -38,7 +33,6 @@ function changeImage(direction) {
   modalImg.src = images[currentIndex];
 }
 
-// Obsługa klawiszy
 document.addEventListener('keydown', (e) => {
   const modal = document.getElementById('modal');
   if (!modal.classList.contains('active')) return;
@@ -51,6 +45,3 @@ document.addEventListener('keydown', (e) => {
     changeImage(1);
   }
 });
-
-// Inicjalizacja po załadowaniu strony
-document.addEventListener('DOMContentLoaded', initGallery);
