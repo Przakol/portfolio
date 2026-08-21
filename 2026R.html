@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria Zdjęć</title>
+  <link rel="stylesheet" href="style4.css">
+  <link rel="icon" href="/zdj/icon.png" type="image/png">
+</head>
+<body>
+    <button class="back-button" onclick="history.back()" aria-label="Powrót">
+  <span class="arrow">←</span>
+</button>
+    <div class="gallery">
+  <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/62.webp')">
+    <img src="zdj/rysunek/2026/62.webp" alt="Zdjęcie 1">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/63.webp')">
+    <img src="zdj/rysunek/2026/63.webp" alt="Zdjęcie 2">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/64.webp')">
+    <img src="zdj/rysunek/2026/64.webp" alt="Zdjęcie 3">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/65.webp')">
+    <img src="zdj/rysunek/2026/65.webp" alt="Zdjęcie 4">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/66.webp')">
+    <img src="zdj/rysunek/2026/66.webp" alt="Zdjęcie 6">
+  </div>
+  <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/67.webp')">
+    <img src="zdj/rysunek/2026/67.webp" alt="Zdjęcie 6">
+  </div>
+   <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/68.webp')">
+    <img src="zdj/rysunek/2026/68.webp" alt="Zdjęcie 8">
+  </div>
+   <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/69.webp')">
+    <img src="zdj/rysunek/2026/69.webp" alt="Zdjęcie 10">
+  </div>
+   <div class="gallery-item" onclick="openModal('zdj/rysunek/2026/70.webp')">
+    <img src="zdj/rysunek/2026/70.webp" alt="Zdjęcie 11">
+  </div>
+
+
+  
+
+</div>
+
+  <div class="modal" id="modal" onclick="closeModal()">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg" onclick="event.stopPropagation()">
+    <div class="modal-nav">
+      <button class="nav-btn prev" onclick="event.stopPropagation(); changeImage(-1)">‹</button>
+      <button class="nav-btn next" onclick="event.stopPropagation(); changeImage(1)">›</button>
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
