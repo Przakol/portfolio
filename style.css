@@ -264,7 +264,8 @@ p {
 
 
   .zmianajenzyka {
-    margin-top: 28px;
-    margin-left: 75px;
+    position: fixed;
+    top: 28px;
+    left: 75px;
     z-index: 1003;
-  }
+}
