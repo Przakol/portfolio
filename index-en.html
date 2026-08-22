@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/zdj/icon.png" type="image/png">
+
+    <title>Adam Luberda</title>
+</head>
+<body>
+
+    <button class="menu-button">☰</button>
+
+     <div class="zmianajenzyka"> 
+      <a href="index-ro.html"><img src="zdj/rumunia.png" alt="RO"></a>
+      <a href="index.html"><img src="zdj/polska.png" alt="PL"></a>
+    </div>
+
+
+    <div class="sidebar-trigger"></div>
+
+<div class="sidebar">
+  <nav>
+    <ul>
+      <li class="menu-item">
+        <a href="omnie-en.html">About me</a>
+      </li>
+      <li class="menu-item">
+        <span class="galeria">gallery</span>
+        <ul class="submenu">
+          <div class="submenu-scroll">
+          <li><span>paintings</span></li>
+          <li><span><a href="2026M.html">2026</a></span></li>
+          <li><span><a href="2025M.html">2025</a></span></li>
+          <li><span><a href="2024M.html">2024</a></span></li>
+          <li><span><a href="p2024M.html">before 2024</a></span></li>
+          <li><span>drawings</span></li> 
+          <li><span><a href="2026R.html">2026</a></span></li>
+          <li><span><a href="2025R.html">2025</a></span></li>
+          <li><span><a href="p2025R.html">before 2025</a></span></li>
+          </div>
+        </ul>
+      </li>
+      <!-- <li class="menu-item">
+        <a href="lekcje.html">lekcje prywatne</a>
+      </li>
+    -->
+      <li class="menu-item">
+        <a href="kontakt.html">contact</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+   
+
+    <section class="content">
+        <h1></h1>
+        <p></p>
+    </section>
+
+    <script>
+     const menuButton = document.querySelector('.menu-button');
+const sidebar = document.querySelector('.sidebar');
+const submenus = document.querySelectorAll('.submenu');
+
+menuButton.addEventListener('click', () => {
+
+    sidebar.classList.toggle('active');
+      if (!isActive) {
+        sidebar.classList.add('no-hover');
+        setTimeout(() => sidebar.classList.remove('no-hover'), 300);
+    }
+
+
+    submenus.forEach(sub => {
+        if (sub.style.maxHeight && sub.style.maxHeight !== "0px") {
+           
+            sub.style.maxHeight = "0";
+        } else {
+          
+            sub.style.maxHeight = sub.scrollHeight + "px";
+        }
+    });
+});
+
+    </script>
+
+</body>
+
+</html>
