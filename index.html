@@ -59,7 +59,43 @@
         <p></p>
     </section>
 
-    <script src="menu.js?v=2" defer></script>
+    <script>
+      // menu boczne: przycisk ☰ i rozwijana „galeria"
+      (function () {
+        var button  = document.querySelector('.menu-button');
+        var sidebar = document.querySelector('.sidebar');
+        var gallery = document.querySelector('.galeria');   // napis „galeria" / „galerie"
+        if (!button || !sidebar) return;
+
+        var galleryItem = gallery ? gallery.parentNode : null;   // element listy .menu-item
+
+        function setGallery(open) {
+          if (!galleryItem) return;
+          if (open) galleryItem.classList.add('open');
+          else galleryItem.classList.remove('open');
+        }
+
+        // ☰ – otwiera / zamyka menu (pokazuje tylko główne pozycje, galeria zawsze startuje zwinięta)
+        button.addEventListener('click', function () {
+          // toggle() zwraca true, gdy menu właśnie się otworzyło
+          var isActive = sidebar.classList.toggle('active');
+
+          if (!isActive) {
+            sidebar.classList.add('no-hover');
+            setTimeout(function () { sidebar.classList.remove('no-hover'); }, 300);
+          }
+
+          setGallery(false);   // galeria rozwija się dopiero po dotknięciu napisu „galeria"
+        });
+
+        // dotknięcie / kliknięcie „galeria" – rozwija lub zwija listę lat
+        if (gallery) {
+          gallery.addEventListener('click', function () {
+            setGallery(!galleryItem.classList.contains('open'));
+          });
+        }
+      })();
+    </script>
 
 </body>
 
