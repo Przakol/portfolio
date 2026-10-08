@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2">
     <link rel="icon" href="/zdj/icon.png" type="image/png">
 
     <title>Adam Luberda</title>
@@ -59,32 +59,7 @@
         <p></p>
     </section>
 
-    <script>
-     const menuButton = document.querySelector('.menu-button');
-const sidebar = document.querySelector('.sidebar');
-const submenus = document.querySelectorAll('.submenu');
-
-menuButton.addEventListener('click', () => {
-
-    sidebar.classList.toggle('active');
-      if (!isActive) {
-        sidebar.classList.add('no-hover');
-        setTimeout(() => sidebar.classList.remove('no-hover'), 300);
-    }
-
-
-    submenus.forEach(sub => {
-        if (sub.style.maxHeight && sub.style.maxHeight !== "0px") {
-           
-            sub.style.maxHeight = "0";
-        } else {
-          
-            sub.style.maxHeight = sub.scrollHeight + "px";
-        }
-    });
-});
-
-    </script>
+    <script src="menu.js?v=2" defer></script>
 
 </body>
 

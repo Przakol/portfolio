@@ -105,14 +105,22 @@ html, body {
     pointer-events: none;
 }
 
-.sidebar-trigger:hover ~ .sidebar.no-hover {
-    left: -500px;
-}
-
-.sidebar-trigger:hover ~ .sidebar,
-.sidebar:hover,
+/* menu otwarte przyciskiem ☰ – działa na telefonie i na komputerze */
 .sidebar.active {
     left: 0;
+}
+
+/* otwieranie po najechaniu myszką – tylko na urządzeniach z myszką.
+   Na iPhonie/iPadzie :hover „zawisa” po dotknięciu i psuje menu. */
+@media (hover: hover) {
+    .sidebar-trigger:hover ~ .sidebar.no-hover {
+        left: -500px;
+    }
+
+    .sidebar-trigger:hover ~ .sidebar,
+    .sidebar:hover {
+        left: 0;
+    }
 }
 
 
@@ -130,6 +138,7 @@ html, body {
 }
 
 span.galeria {
+    cursor: pointer;
     color: white !important;
     text-decoration: none !important;
     font-size: 48px !important;
@@ -201,10 +210,20 @@ span.galeria {
   text-decoration: underline;
 }
 
-.menu-item:hover .submenu {
-  max-height: 700px;   
-  padding-top: 5px;   
+/* galeria rozwinięta: klasa .open ustawiana w menu.js (dotyk / przycisk ☰) */
+.menu-item.open .submenu {
+  max-height: 700px;
+  padding-top: 5px;
   padding-bottom: 5px;
+}
+
+/* ...albo po najechaniu myszką (tylko urządzenia z myszką) */
+@media (hover: hover) {
+  .menu-item:hover .submenu {
+    max-height: 700px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }
 
 .sidebar nav ul li a {
